@@ -1,0 +1,25 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "mkdocs build",
+    "deploy": "python upload_qcloud.py",
+    "go": "npm run build && npm run deploy",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/dandelight/blog"
+  },
+  "author": "Ruiming Guo",
+  "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "prettier": "latest"
+  }
+}

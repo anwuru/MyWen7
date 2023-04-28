@@ -1,0 +1,11 @@
+{
+  "accentColor": "",
+  "theme": "system",
+  "baseFontSize": 13,
+  "nativeMenus": false,
+  "translucency": false,
+  "interfaceFontFamily": "微软雅黑,方正黑体_GBK",
+  "monospaceFontFamily": "JetBrains Mono",
+  "textFontFamily": "微软雅黑,方正黑体_GBK",
+  "cssTheme": "Minimal"
+}
